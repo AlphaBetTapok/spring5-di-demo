@@ -1,16 +1,16 @@
 package com.taranenkoant;
 
-import guru.springframework.controllers.ConstructorInjectedController;
-import guru.springframework.controllers.GetterInjectedController;
-import guru.springframework.controllers.MyController;
-import guru.springframework.controllers.PropertyInjectedController;
+import com.taranenkoant.controllers.ConstructorInjectedController;
+import com.taranenkoant.controllers.GetterInjectedController;
+import com.taranenkoant.controllers.MyController;
+import com.taranenkoant.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"guru.services", "guru.springframework"})
+@ComponentScan(basePackages = {"com.services", "com.taranenkoant"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {
