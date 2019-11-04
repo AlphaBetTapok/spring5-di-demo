@@ -1,6 +1,6 @@
 package com.taranenkoant.controllers;
 
-import com.services.GreetingServiceImpl;
+import com.taranenkoant.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

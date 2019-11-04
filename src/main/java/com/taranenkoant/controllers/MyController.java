@@ -1,6 +1,6 @@
 package com.taranenkoant.controllers;
 
-import com.services.GreetingService;
+import com.taranenkoant.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 /**

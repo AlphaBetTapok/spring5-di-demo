@@ -1,4 +1,4 @@
-package com.services;
+package com.taranenkoant.services;
 
 /**
  * Created by jt on 5/24/17.
